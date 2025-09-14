@@ -1,0 +1,24 @@
+# Assignment 2 Unchanged Function 
+
+assignment2 <- c(16, 18, 14, 22, 27, 17, 19, 17, 17, 22, 20, 22)
+myMean <- function(assignment2) {
+  return(sum(assignment) / length(someData))
+}
+myMean(assignment2)
+
+# Explanation
+# This function fails because the name assignment and someData do not exist. 
+# In the first line of our function, we called the variable to be used in the function 'assignment2'. 
+# For the code to work, we need to change 'assignment' and 'someData' to 'assignment2', then the code will work. 
+
+# Corrected code
+
+assignment2 <- c(16, 18, 14, 22, 27, 17, 19, 17, 17, 22, 20, 22)
+myMean <- function(assignment2) {
+  return(sum(assignment2) / length(assignment2))
+}
+myMean(assignment2)
+
+# To check
+
+mean(assignment2)
