@@ -1,0 +1,37 @@
+---
+title: "R Markdown Primer"
+author: "Tobias Lochner"
+date: "2025-11-16"
+output: html_document
+---
+
+# Introduction 
+
+R Markdown is a framework that allows for the creation of documents such as PDFs and htmls. Within these documents users can blend text with executable R code. 
+
+# Narrative
+
+Doing this assignment has shown the benefits of being able to use R Markdown. Not only can we easily run and execute R code just like we can with an R script, we can also include plain text that allows us to tell a story with our data. Along with this R Markdown allows us to output this document that combines both R code and text in easy to read file formats such as html, pdf, or word. 
+
+# LaTeX Expression 
+
+The Pythagorean Theorem is $C^2 = A^2 + B^2$
+
+
+```{r}
+# 1st R Chunk
+
+head(iris)
+
+```
+
+```{r}
+# 2nd R Chunk
+
+hist(iris$Sepal.Length)
+
+```
+
+# Conclusion 
+
+I've used R Markdown in several classes before this, and it makes creating any sort of report that involves code very easy. I also think it's quite useful in school since it allows instructors to create Rmd files that include instructions and allow you to input the needed code. Like filling out a worksheet. 
